@@ -10,10 +10,10 @@ public class ActitimeLogin {
 			//Open the browser and pass the url and open the page
 			driver.get("http://desktop-u6mlrj4/login.do");
 			Thread.sleep(2000);
-			//Identify username textbox
+			//Identify user name text box
 			driver.findElement(By.name("username")).sendKeys("admin");
 			Thread.sleep(2000);
-			//Identify Password textbox
+			//Identify Password text box
 			driver.findElement(By.name("pwd")).sendKeys("manager");
 			Thread.sleep(2000);
 			driver.findElement(By.id("loginButton")).click();
