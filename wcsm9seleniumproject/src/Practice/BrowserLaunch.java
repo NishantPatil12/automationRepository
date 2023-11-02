@@ -25,7 +25,12 @@ public class BrowserLaunch {
 	js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	Thread.sleep(3000);
 
+	
 	driver.quit();
+	
+	
+	
+	
 	
 	}
 
